@@ -8,4 +8,6 @@
 body {
     width: 512px;
 }
-
+img {
+    max-width: 100%;
+}

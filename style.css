@@ -20,12 +20,12 @@ button {                        /* style button */
     border-radius: 12px;
     height: 50px;
 }
-section{                        /* style section */
-    
-    width: 400px;
-}
 .main_paragraph {               /* style main_paragraph */
     text-align: center;
+    max-width: 400px;
+    margin: 50px 50px 30px;
+    padding: 4px;
+
 }
 h2{                             /* style h2 */
     font-weight: bold;

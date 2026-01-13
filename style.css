@@ -6,31 +6,36 @@
 }
 
 body {
-    width: 512px;
+    width: 512px;               /* page width */
+    background-color: rgb(7, 7, 150) ;  /* add background color */
+    color: white    ;         /* change text color to white */
 }
 img {
-    max-width: 100%;
+    max-width: 100%;            /* relative img width set to 100% */
 }
-button {
+button {                        /* style button */
     font-family: "dm sans";
     width: 400px;
     margin: 16px;
     border-radius: 12px;
     height: 50px;
 }
-section{
+section{                        /* style section */
     
     width: 400px;
 }
-.main_paragraph {
+.main_paragraph {               /* style main_paragraph */
     text-align: center;
 }
-h2{
+h2{                             /* style h2 */
     font-weight: bold;
     text-transform: uppercase;
     font-size: 24px;
     font-family:"sigmar"
 }
-p{
+p{                              /* style p */
     font-family: "dm sans";
+}
+#colored_button {
+    background-color: rgb(98, 88, 243);
 }

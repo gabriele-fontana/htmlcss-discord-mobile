@@ -19,8 +19,18 @@ button {
     height: 50px;
 }
 section{
-    font-family:"sigmar" ;
+    
+    width: 400px;
 }
 .main_paragraph {
     text-align: center;
+}
+h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family:"sigmar"
+}
+p{
+    font-family: "dm sans";
 }

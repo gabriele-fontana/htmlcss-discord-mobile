@@ -37,21 +37,31 @@ h2{                             /* style h2 */
 p{                              /* style p */
     font-family: "dm sans";
 }
-#colored_button { /* style colored_button */
+#colored_button {               /* style colored_button */
     background-color: rgb(98, 88, 243);
     color: white;
 }
-.box {
+.box {                            /* Style box */                 
     background-color: rgb(98, 88, 243);
-    margin: 50px;
-    padding: 20px;
+    padding: 16px;
     border-radius: 20px;
-    width: 70%;
-    botto
+    margin: 24px;
+   
     
 }
-video{
-    width: 100%;
+video{                      /* style video */
     border-radius: 10px;
+    max-width: 380px;
+}
+#streamer_img{            /* style streamer_img */
+    border-radius: 16px;
+    margin-top: 8px;
+    max-width: 330px;
+
+}
+.box_icon {
+    max-width: 60px;
+    position: absolute;
     
+
 }

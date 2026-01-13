@@ -15,17 +15,18 @@ img {
 }
 button {                        /* style button */
     font-family: "dm sans";
-    width: 400px;
-    margin: 16px;
+    width: 380px;
+    margin: 10px 50px;
     border-radius: 12px;
     height: 50px;
+    border-color:rgb(7, 7, 150);
+    
 }
 .main_paragraph {               /* style main_paragraph */
     text-align: center;
-    max-width: 400px;
-    margin: 50px 50px 30px;
-    padding: 4px;
-
+    max-width: 380px;
+    margin: 50px 50px 20px;    /* align main_paragraph */
+   
 }
 h2{                             /* style h2 */
     font-weight: bold;
@@ -36,6 +37,21 @@ h2{                             /* style h2 */
 p{                              /* style p */
     font-family: "dm sans";
 }
-#colored_button {
+#colored_button { /* style colored_button */
     background-color: rgb(98, 88, 243);
+    color: white;
+}
+.box {
+    background-color: rgb(98, 88, 243);
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 70%;
+    botto
+    
+}
+video{
+    width: 100%;
+    border-radius: 10px;
+    
 }

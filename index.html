@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/discord_mobile_assets/assets/img/icon.png"> <!-- add icon -->
 
-    <title>Discord Mobile</title>                      <!-- title -->
-    <link rel="stylesheet" href="style.css">                 <!-- link css stylesheet -->
+    <title>Discord Mobile</title> <!-- title -->
+    <link rel="stylesheet" href="style.css"> <!-- link css stylesheet -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- link googlefonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sigmar&family=Unbounded:wght@200..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sigmar&family=Unbounded:wght@200..900&display=swap"
         rel="stylesheet"> <!-- link fonts -->
 
 </head>
@@ -21,52 +21,58 @@
         <div>
             <img src="./discord_mobile_assets/assets/img/banner.png" alt="banner"><!-- add banner -->
         </div>
-        <div >
+
         <section class="main_paragraph"> <!-- add main paragraph -->
-            <h2> Group chat that's all fun & games</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere reiciendis ab natus similique eaque id, aperiam doloribus unde soluta, explicabo harum distinctio atque, pariatur earum. Possimus maxime quo optio aut? 
+            <h1> Group chat that's all fun & games</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere reiciendis ab natus similique eaque id,
+                aperiam doloribus unde soluta, explicabo harum distinctio atque, pariatur earum. Possimus maxime quo
+                optio aut?
             </p>
         </section>
-        </div>
-        <button class="button"><!-- add button -->
-            <img src="./discord_mobile_assets/assets/cloud-download.svg" alt="cloud-download">
-            <span>Download for Windows</span>
-        </button>
-        <br>
-        <button class="button" id="colored_button"><!-- add colored button id -->
-            <span>Open Discord in your browser</span>
+        <div id="buttons_group"><!-- push together buttons -->
+            <button class="button"><!-- add button -->
+                <img src="./discord_mobile_assets/assets/cloud-download.svg" alt="cloud-download">
+                <span>Download for Windows</span>
+            </button>
+            <br>
+            <button class="button" id="colored_button"><!-- add colored button id -->
+                <span>Open Discord in your browser</span>
 
-        </button>
-        <div class="box">       <!-- /.box_1-->
+            </button>
+        </div>
+        <div class="box" id="box_1"> <!-- /.box_1-->
             <section>
                 <h2>make your group chat more fun</h2>
-                <p>Use custom emoji, stickers, soundboard effects and more to add to your personality to your voice, video or text chat. Set your avatar and a custom status, and write your own profile to show up in a chat your way
+                <p>Use custom emoji, stickers, soundboard effects and more to add to your personality to your voice,
+                    video or text chat. Set your avatar and a custom status, and write your own profile to show up in a
+                    chat your way
 
                 </p>
-                <video controls width="100%">
-                <source src="./discord_mobile_assets/assets/video/video_demo.mp4" type="video/mp4">
+                <video controls width="400px">
+                    <source src="./discord_mobile_assets/assets/video/video_demo.mp4" type="video/mp4">
                 </video><!-- add video -->
-               
+
             </section>
+            <!-- add discord cube logo -->
+            <img class="box_icon" id="discord_cube" src="./discord_mobile_assets/assets/img/discord_cube.png"
+                alt="discord_cube">
         </div>
 
-        <img class="box_icon" src="./discord_mobile_assets/assets/img/discord_cube.png" alt="discord_cube"> <!-- add discord cube logo -->
-
-        <div class="box">           <!-- /.box_2-->
+        <div class="box" id="box_2"> <!-- /.box_2-->
             <section>
                 <h2>make your group chat more fun</h2>
-                <p>Use custom emoji, stickers, soundboard effects and more to add to your personality to your voice, video or text chat. Set your avatar and a custom status, and write your own profile to show up in a chat your way
+                <p>Use custom emoji, stickers, soundboard effects and more to add to your personality to your voice,
+                    video or text chat. Set your avatar and a custom status, and write your own profile to show up in a
+                    chat your way
 
                 </p>
-                <img id="streamer_img" src="./discord_mobile_assets/assets/img/streamer_demo.png" alt="streamer_img"> <!-- add streamer img -->
+                <img id="streamer_img" src="./discord_mobile_assets/assets/img/streamer_demo.png" alt="streamer_img">
+                <!-- add streamer img -->
 
             </section>
-          
+            <img class="box_icon" id="eyes" src="./discord_mobile_assets/assets/img/eyes.png" alt="eyes">
         </div>
-        <img class="box_icon" src="./discord_mobile_assets/assets/img/eyes.png" alt="eyes">
-
     </main>
-
 </body>
 
 </html>

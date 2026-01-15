@@ -1,0 +1,1 @@
+<img src="/discord_mobile_assets/assets/img/streamer_demo.png" alt=""> <!-- add discord_demo.png -->
